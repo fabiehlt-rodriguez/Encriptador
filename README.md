@@ -1,6 +1,6 @@
 # Encriptador de Texto - Versión 1
 
-Este proyecto es un encriptador de texto simple desarrollado en JavaScript. Permite cifrar y descifrar mensajes utilizando una técnica básica de sustitución de caracteres, brindando una forma sencilla de proteger tus mensajes.
+Este proyecto es un encriptador de texto simple desarrollado en JavaScript. Permite cifrar y descifrar mensajes utilizando una técnica básica de sustitución de caracteres.
 
 ## Características
 
