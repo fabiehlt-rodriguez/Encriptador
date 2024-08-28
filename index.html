@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="es-SV">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge"> <!--Asegurar que tu sitio web se renderice correctamente en Internet Explorer, utilizando el motor de renderizado más reciente-->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Encriptador</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.1/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <main class="container">
+        <section class="container__operacion">
+            <div>
+                <img src="img/Logo.png">
+                <!--<h1>Encriptador de texto</h1>-->
+            </div>
+            <div class="container__operacion__contenido">
+                <textarea class="textarea__operacion" id="textoOriginal" placeholder="Ingrese el texto aquí"></textarea>
+                <div class="container__operacion__contenido__botones">
+                    <p class="recomendacion">
+                        <i class="bi bi-exclamation-circle-fill"></i>
+                        Solo letras minúsculas y sin acentos
+                    </p>
+                    <div class="operacion__botones">
+                        <button class="operacion__botones__encriptar" id="botonEncriptar">
+                            Encriptar
+                        </button>
+                        <button class="operacion__botones__desencriptar" id="botonDesencriptar">
+                            Desencriptar
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="container__presentacion" style=" display: flex; align-items: center; justify-content: center;">
+            <div class="container__presentacion__vacio" id="presentacionVacio" >
+                <img src="img/Muñeco.png" alt="Imagen decorativa, buscando letras">
+                <div class="container__presentacion__vacio__texto">
+                    <p>
+                        Ningún mensaje fue encontrado
+                    </p>
+                    <span>
+                        Ingresa el texto que desees encriptar o desencriptar.
+                    </span>
+                </div>
+            </div>
+            <div class="container__presentacion__lleno" id="presentacionLleno" >
+                <textarea class="textarea__presentacion" id="presentacionTexto"></textarea>
+                <button class="boton__copiar" id="presentacionBotonCopiar">
+                    Copiar
+                </button>
+            </div>
+        </section>
+    </main>
+    <footer class="footer">
+        <p>2024 - Desarrollado por Fabiehlt Rodríguez con el apoyo de Alura Latam</p>
+    </footer>
+    <script src="app.js"></script>
+</body>
+</html>
